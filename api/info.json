@@ -1,0 +1,279 @@
+{
+  "success": true,
+  "data": {
+    "name": "Inder",
+    "lastName": "Singh",
+    "role": "Full Stack Developer",
+    "profilePic": "/assets/images/profile.jpg",
+    "linkedin": "https://www.linkedin.com/in/ips17009/",
+    "educations": [
+      {
+        "title": "Bachelor Degree of Computre Science & Information Technology (BSC.IT)",
+        "institute": "Kalinga University",
+        "startDate": "2014-06-01T13:13:13.0Z",
+        "endDate": "2016-06-01T13:13:13.0Z",
+        "state": "Chhattisgarh",
+        "totalSems": 4,
+        "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+        "points": []
+      },
+      {
+        "title": "Diploma in Information Technology (DIT)",
+        "institute": "Kalinga University",
+        "startDate": "2012-10-01T13:13:13.0Z",
+        "endDate": "2013-10-01T13:13:13.0Z",
+        "state": "Punjab",
+        "totalSems": 2,
+        "description": "",
+        "points": []
+      },
+      {
+        "title": "Senior Seconday School",
+        "institute": "JVS (Sectore-71 Mohali)",
+        "board": "PSEB",
+        "startDate": "2012-10-01T13:13:13.0Z",
+        "endDate": "2013-10-01T13:13:13.0Z",
+        "state": "Punjab",
+        "totalSems": 2,
+        "description": "",
+        "points": []
+      },
+      {
+        "title": "High School",
+        "institute": "JVS (Sectore-71 Mohali)",
+        "board": "PSEB",
+        "startDate": "2012-10-01T13:13:13.0Z",
+        "endDate": "2013-10-01T13:13:13.0Z",
+        "state": "Punjab",
+        "totalSems": 2,
+        "description": "",
+        "points": []
+      }
+    ],
+    "experiences": [
+      {
+        "title": "Technical Lead Manager",
+        "description": "Technical Lead Manager Technical Lead Manager",
+        "company": "Illuminz",
+        "address": "#F-213 Phase-8, Mohali, Punjab, India",
+        "startDate": "2021-05-31T13:13:13.0Z",
+        "endDate": "2018-06-07T13:13:13.0Z",
+        "projects": [
+  
+        ],
+        "roles": [
+  
+        ],
+        "technologies": [
+          
+        ]
+      },
+      {
+        "title": "Senior Software Engineer",
+        "description": "Senior Software Engineer",
+        "company": "Deftsoft",
+        "address": "#E-286 Phase-8 A, Mohali, Punjab, India",
+        "startDate": "2017-01-23T13:13:13.0Z",
+        "endDate": "2018-05-19T13:13:13.0Z",
+        "projects": [
+  
+        ],
+        "roles": [
+  
+        ],
+        "technologies": [
+          "PHP",
+          "JS"
+        ]
+      },
+      {
+        "title": "Senior Web Developer",
+        "description": "Senior Web Developer Senior Web Developer",
+        "company": "Webclouds",
+        "address": "SCO 34-C, Kharar, Mohali, Punjab, India",
+        "startDate": "2013-01-23T13:13:13.0Z",
+        "endDate": "2016-10-03T13:13:13.0Z",
+        "projects": [
+  
+        ],
+        "roles": [
+  
+        ],
+        "technologies": [
+          "PHP",
+          "JS",
+          "Wordpress",
+          "Magento",
+          "Drupal",
+          "Joomla",
+          "Ontraport",
+          "Volusion",
+          "ClickBank"
+        ]
+      }
+    ],
+    "skills": [
+      {
+        "name": "Node.JS",
+        "percent": 100,
+        "slug": "nodejs"
+      },
+      {
+        "name": "Angular",
+        "percent": 100,
+        "slug": "angular"
+      },
+      {
+        "name": "ReactJS",
+        "percent": 100,
+        "slug": "react"
+      },
+      {
+        "name": "PHP",
+        "percent": 100,
+        "slug": "php"
+      },
+      {
+        "name": "Phython",
+        "percent": 90,
+        "slug": "python"
+      },
+      {
+        "name": "Ionic",
+        "percent": 90,
+        "slug": "ionic"
+      },
+      {
+        "name": "React Native",
+        "percent": 80,
+        "slug": "reactnative"
+      },
+      {
+        "name": "PhoneGap",
+        "percent": 70,
+        "slug": "phonegap"
+      },
+      {
+        "name": "SQL (MySql, MsSql, MariaDB)",
+        "percent": 100
+      },
+      {
+        "name": "NoSQL (MongoDB, Dynamodb)",
+        "percent": 100,
+        "slug": "nosql"
+      },
+      {
+        "name": "HTML",
+        "percent": 100,
+        "slug": "html"
+      },
+      {
+        "name": "CSS",
+        "percent": 100,
+        "slug": "css"
+      },
+      {
+        "name": "AWS (EC2, IAAS, PAAS, SAAS, RDS)",
+        "percent": 90,
+        "slug": "aws"
+      },
+      {
+        "name": "Google Cloud (Instances)",
+        "percent": 80
+      },
+      {
+        "name": "Cpanels (SSH, Files)",
+        "percent": 100
+      },
+      {
+        "name": "Docker",
+        "percent": 70,
+        "slug": "docker"
+      },
+      {
+        "name": "Kubernetes",
+        "percent": 60,
+        "slug": "kubernetes"
+      },
+      {
+        "name": "Wordpress",
+        "percent": 100
+      },
+      {
+        "name": "Laravel",
+        "percent": 95
+      },
+      {
+        "name": "Magento (v1 & v2)",
+        "percent": 90
+      },
+      {
+        "name": "Bigcommerce",
+        "percent": 90
+      },
+      {
+        "name": "Codeigniter",
+        "percent": 80
+      },
+      {
+        "name": "CakePHP",
+        "percent": 80
+      },
+      {
+        "name": "Shopify",
+        "percent": 80
+      },
+      {
+        "name": "Drupal",
+        "percent": 70
+      },
+      {
+        "name": "Opencart",
+        "percent": 70
+      },
+      {
+        "name": "Nationbuilder",
+        "percent": 60
+      }
+    ],
+    "projects": [
+      {
+        "name": "Motoview",
+        "link": "https://motoview.com",
+        "image": "motoview.png",
+        "description": "A complete website with listing of cars from different motorshows, the best automobile companies from arround the world showcase their latest designs and concepts cars of future. We are fetching a list of different cars from the Iceberg API and then storing all of them inside motoview database. We can compare the multiple cars side by side to see all the features available, also user can signup and like/unlike, comment on the different parts of car.",
+        "technologies": ["Angular", "Lumen", "Mysql"]
+      },
+      {
+        "name": "Ethnico",
+        "link": "https://ethnico.in",
+        "image": "ethnico.png",
+        "description": "Ethnico presents itself as a holistic platform for both customized and readymade clothing. It connects artisans, boutiques, and clothing houses across Chennai, to people looking for bespoke stitching and customized tailoring experiences. Ethnico is a wholesome platform for both the end-users and the vendors. It gives users the feasibility to shop for readymade garments and bespoke stitching options, without having to step out of their homes.",
+        "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
+      },
+      {
+        "name": "Lex Chatbot",
+        "image": "lexbot.png",
+        "description": "Lex chatbot"
+      },
+      {
+        "name": "Delivery Papa",
+        "link": "http://dp.illuminz.com",
+        "image": "delivery-papa.png",
+        "description": "Delivery Papa website"
+      },
+      {
+        "name": "Upped Events",
+        "link": "http://uppedevents.com",
+        "image": "upped.png",
+        "description": "Upped events website"
+      },
+      {
+        "name": "Gigipo",
+        "link": "https://dev.gigipo.com",
+        "image": "gigipo.png",
+        "description": "Gigipo website"
+      }
+    ]
+  }
+}
