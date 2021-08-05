@@ -3,9 +3,11 @@
   "data": {
     "name": "Inder",
     "lastName": "Singh",
+    "fullName": "Mr. Inderpal Singh",
     "role": "Full Stack Developer",
     "profilePic": "/assets/images/profile.jpg",
     "linkedin": "https://www.linkedin.com/in/ips17009/",
+    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab and I'm having 8 years of experience in development, starting my career with PHP developement I learn different technologies and frameworks and after a long year of experience, learning, efforts now I'm Full Stack Developer.",
     "educations": [
       {
         "title": "Bachelor Degree of Computre Science & Information Technology (BSC.IT)",
@@ -14,8 +16,8 @@
         "endDate": "2016-06-01T13:13:13.0Z",
         "state": "Chhattisgarh",
         "totalSems": 4,
-        "description": "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-        "points": []
+        "description": "After completing my Diploma I started my career in development and then after few months I have taken admission in BSC.IT 2nd year on the basis of my Diploma. I got 67.14% in this course and learn alot about the Information technology.",
+        "points": ["Math", "Made project of shopping cart"]
       },
       {
         "title": "Diploma in Information Technology (DIT)",
@@ -24,19 +26,19 @@
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "",
-        "points": []
+        "description": "After completing my Senior secondary education I have taken admission in field of information technology to know more about the computer. I got 73.42% in this course with good kickstart things in my hand. I always wanted to be Software engineer but didn't know where to start, this course helps me to kickstart my career with Industrial training and coaching in PHP, Mysql.",
+        "points": ["Industrial Training", "Communicating Skills", "PHP, Mysql training"]
       },
       {
-        "title": "Senior Seconday School",
-        "institute": "JVS (Sectore-71 Mohali)",
+        "title": "Senior Secondary School",
+        "institute": "3b1 Govt. Modal Senior Secondary, Mohali",
         "board": "PSEB",
         "startDate": "2012-10-01T13:13:13.0Z",
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "",
-        "points": []
+        "description": "I completed my Senior Secondary education in 2012 with the stream of Non-Medical, I always love to take challenges before I have taken a entry in commerce stream but due to the boring CA things I was looking to learn more about Science and Technology and then I choose to go with Non-Medical, I got 70% in this course.",
+        "points": ["Non-Medical", "Math", "Science", "Cricket player of school team"]
       },
       {
         "title": "High School",
@@ -46,18 +48,18 @@
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "",
-        "points": []
+        "description": "I completed my High school in 2010 with 70.21% in the subject. During the school time i participated into different outdoor sports events.",
+        "points": ["Math","Cricket player of school team"]
       }
     ],
     "experiences": [
       {
         "title": "Technical Lead Manager",
-        "description": "Technical Lead Manager Technical Lead Manager",
+        "description": "My responsibility was to lead the team of technical developers and help them to solve the problems. I was communicating with clients, listen their thoughts and discuss all the project related stuff. I gave weekly demos and discuss the next milestones with them to deliver the quality and on time of work is my goal.",
         "company": "Illuminz",
         "address": "#F-213 Phase-8, Mohali, Punjab, India",
-        "startDate": "2021-05-31T13:13:13.0Z",
-        "endDate": "2018-06-07T13:13:13.0Z",
+        "startDate": "2018-06-07T13:13:13.0Z",
+        "endDate": "2021-05-31T13:13:13.0Z",
         "projects": [
   
         ],
@@ -70,7 +72,7 @@
       },
       {
         "title": "Senior Software Engineer",
-        "description": "Senior Software Engineer",
+        "description": "I worked there as Senior software engineer where I had to work on different technologies and communicate with sales and team leads to give right directions, timeline and availabilities.",
         "company": "Deftsoft",
         "address": "#E-286 Phase-8 A, Mohali, Punjab, India",
         "startDate": "2017-01-23T13:13:13.0Z",
@@ -88,7 +90,7 @@
       },
       {
         "title": "Senior Web Developer",
-        "description": "Senior Web Developer Senior Web Developer",
+        "description": "I started my development journey from Webclouds as trainee in the PHP development, within a 20days I covered the syllabus given to me and I was assigned to live projects, I made first project in Wordpress single handledly and completed that within 4 days.",
         "company": "Webclouds",
         "address": "SCO 34-C, Kharar, Mohali, Punjab, India",
         "startDate": "2013-01-23T13:13:13.0Z",
@@ -254,25 +256,29 @@
       {
         "name": "Lex Chatbot",
         "image": "lexbot.png",
-        "description": "Lex chatbot"
+        "description": "The chatbot is made to take the feedback for their survey, based on user response it detects the sentiment of that line, if it is positive or negative response and baseed on that it ask the next question to the more details about their experience, it has progress bar until it reach the certain number of words the questions will be asked to user. I made a unique Lambda/Python script to acheive this and prepare the sentence by using the English grammar and syntax.",
+        "technologies": ["AWS Lambda", "Python", "DynamoDB"]
       },
       {
         "name": "Delivery Papa",
         "link": "http://dp.illuminz.com",
         "image": "delivery-papa.png",
-        "description": "Delivery Papa website"
+        "description": "Delivery Papa website",
+        "technologies": ["Angular", "NodeJs", "React", "NextJS", "Mysql", "MongoDB"]
       },
       {
         "name": "Upped Events",
         "link": "http://uppedevents.com",
         "image": "upped.png",
-        "description": "Upped events website"
+        "description": "Upped events website",
+        "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
       },
       {
         "name": "Gigipo",
         "link": "https://dev.gigipo.com",
         "image": "gigipo.png",
-        "description": "Gigipo website"
+        "description": "Gigipo website",
+        "technologies": ["React", "NodeJs", "Mysql", "MongoDB"]
       }
     ]
   }
