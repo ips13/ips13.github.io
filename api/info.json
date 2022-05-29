@@ -7,11 +7,11 @@
     "role": "Full Stack Developer",
     "profilePic": "/assets/images/profile.jpg",
     "linkedin": "https://www.linkedin.com/in/ips17009",
-    "twitter": "https://twitter.com/pali170",
-    "facebook": "https://www.facebook.com/ips17009",
-    "instagram": "https://www.instagram.com/ip__singh",
-    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab and I'm having 8 years of experience in development, starting my career with PHP development I always keen to learn different technologies then I switched to frontend JS frameworks, In 2016, I completed my first project with NodeJs and then start working with Angular and ReactJs, after a long years of experience in development, and learning different techonologies and efforts now I can proudly represent my as a Full Stack Developer.",
-    "description": "Starting my career as a PHP developer I worked with different technologies, frameworks and developed many plugins, themes in WordPress and then I switched to JS frameworks back in 2017 (Angular & React), afterwards I started working with backend & frontend technologies both and now I'm Full Stack Developer in the field of website and app development, having knowledge of 6 different programming languages and many more on my way.",
+    "twitter": "",
+    "facebook": "",
+    "instagram": "",
+    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab and I'm having 8 years of experience in development, starting my career with PHP development I'm always keen to learn different technologies then I switched to frontend JS frameworks, In 2016, I completed my first project with NodeJs and then start working with Angular and ReactJs, after long years of experience in development, and learning different technologies and efforts now I can proudly represent my as a Full Stack Developer.",
+    "description": "Starting my career as a PHP developer I worked with different technologies, frameworks and developed many plugins, themes in WordPress and then I switched to JS frameworks back in 2017 (Angular & React), afterward I started working with both backend & frontend technologies both and now I'm Full Stack Developer in the field of website and app development, having knowledge of 6 different programming languages and many more on my way.",
     "educations": [
       {
         "title": "Bachelor Degree of Computre Science & Information Technology (BSC.IT)",
@@ -20,7 +20,7 @@
         "endDate": "2016-06-01T13:13:13.0Z",
         "state": "Chhattisgarh",
         "totalSems": 4,
-        "description": "After completing my Diploma I started my career in development and then after few months, I have taken admission to BSC.IT 2nd year based on my Diploma. I got 67.14% in this course and learn a lot about Information technology.",
+        "description": "After completing my Diploma I started my career in development and then after a few months, I have taken admission to BSC.IT 2nd year based on my Diploma. I got 67.14% in this course and learn a lot about Information technology.",
         "points": ["Math", "Made project of shopping cart"]
       },
       {
@@ -59,7 +59,7 @@
     "experiences": [
       {
         "title": "Technical Lead Manager",
-        "description": "My responsibility was to lead the team of technical developers and help them to solve the problems. I was communicating with clients, listen to their thoughts and discuss all the project-related stuff. I gave weekly demos and discuss the next milestones with them to deliver the quality and on-time of work is my goal.",
+        "description": "My responsibility was to lead the team of technical developers and help them to solve the problems. I was communicating with clients, listening to their thoughts, and discussing all the project-related stuff. I gave weekly demos and discuss the next milestones with them to deliver the quality and on-time work is my goal.",
         "company": "Illuminz",
         "address": "#F-213 Phase-8, Mohali, Punjab, India",
         "startDate": "2018-06-07T13:13:13.0Z",
@@ -76,7 +76,7 @@
       },
       {
         "title": "Senior Software Engineer",
-        "description": "I worked there as a Senior software engineer where I had to work on different technologies and communicate with sales and team leads to giving the right directions, timeline, and availabilities.",
+        "description": "I worked there as a Senior software engineer where I had to work on different technologies and communicate with sales and team leads to give the right directions, timeline, and availabilities.",
         "company": "Deftsoft",
         "address": "#E-286 Phase-8 A, Mohali, Punjab, India",
         "startDate": "2017-01-23T13:13:13.0Z",
@@ -94,7 +94,7 @@
       },
       {
         "title": "Senior Web Developer",
-        "description": "I started my development journey from Webclouds as a trainee in PHP development, within 20days I covered the syllabus given to me and I was assigned to live projects, I made the first project in WordPress single handled and completed that within 4 days.",
+        "description": "I started my development journey from Webclouds as a trainee in PHP development, within 20days I covered the syllabus given to me and I was assigned to live projects, I made the first project in WordPress single-handled and completed that within 4 days.",
         "company": "Webclouds",
         "address": "SCO 34-C, Kharar, Mohali, Punjab, India",
         "startDate": "2013-01-23T13:13:13.0Z",

@@ -73,9 +73,9 @@
               el.removeClass('item-animate');
             }, k * 200, 'easeInOutExpo');
           });
-        }, 100);
+        }, 10);
       }
-    }, { offset: '85%' });
+    }, { offset: '70%' });
   };
 
   var burgerMenu = function () {
@@ -163,7 +163,7 @@
   };
 
   var sliderMain = function () {
-    $('#ipsingh-hero .flexslider').flexslider({
+    $('#ipsingh-home .flexslider').flexslider({
       animation: "fade",
       slideshowSpeed: 5000,
       directionNav: true,
