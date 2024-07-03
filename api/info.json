@@ -10,8 +10,8 @@
     "twitter": "",
     "facebook": "",
     "instagram": "",
-    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab and I'm having 8 years of experience in development, starting my career with PHP development I'm always keen to learn different technologies then I switched to frontend JS frameworks, In 2016, I completed my first project with NodeJs and then start working with Angular and ReactJs, after long years of experience in development, and learning different technologies and efforts now I can proudly represent my as a Full Stack Developer.",
-    "description": "Starting my career as a PHP developer I worked with different technologies, frameworks and developed many plugins, themes in WordPress and then I switched to JS frameworks back in 2017 (Angular & React), afterward I started working with both backend & frontend technologies both and now I'm Full Stack Developer in the field of website and app development, having knowledge of 6 different programming languages and many more on my way.",
+    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab. I have 10 years of experience in development. I began my career with PHP development and have always been keen to learn different technologies. This curiosity led me to switch to frontend JavaScript frameworks. In 2016, I completed my first project with Node.js and subsequently started working with Angular and React.js. After years of experience and continuous learning, I am now proud to represent myself as a Full Stack Developer.",
+    "description": "Starting my career as a PHP developer, I worked with various technologies and frameworks, developing numerous plugins and themes in WordPress. In 2017, I transitioned to JavaScript frameworks, specifically Angular and React. Subsequently, I began working with both backend and frontend technologies. Today, I am a Full Stack Developer in website and app development, proficient in six programming languages, with more on the way.",
     "educations": [
       {
         "title": "Bachelor Degree of Computre Science & Information Technology (BSC.IT)",
@@ -20,7 +20,7 @@
         "endDate": "2016-06-01T13:13:13.0Z",
         "state": "Chhattisgarh",
         "totalSems": 4,
-        "description": "After completing my Diploma I started my career in development and then after a few months, I have taken admission to BSC.IT 2nd year based on my Diploma. I got 67.14% in this course and learn a lot about Information technology.",
+        "description": "After completing my diploma, I started my career in development. A few months later, I was admitted directly into the second year of a B.Sc. in Information Technology based on my diploma. I graduated with a 67.14% and gained substantial knowledge in the field of Information Technology.",
         "points": ["Math", "Made project of shopping cart"]
       },
       {
@@ -30,7 +30,7 @@
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "After completing my Senior secondary education I have taken admission in the field of information technology to know more about the computer. I got 73.42% in this course with good kickstart things in my hand. I always wanted to be a Software engineer but didn't know where to start, this course helps me to kickstart my career with Industrial training and coaching in PHP, Mysql.",
+        "description": "After completing my senior secondary education, I pursued a degree in Information Technology to deepen my understanding of computers. I graduated with a 73.42% and gained a solid foundation in the field. I always aspired to be a software engineer but was unsure where to begin. This course provided the perfect starting point, offering industrial training and coaching in PHP and MySQL, which helped launch my career.",
         "points": ["Industrial Training", "Communicating Skills", "PHP, Mysql training"]
       },
       {
@@ -41,7 +41,7 @@
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "I completed my Senior Secondary education in 2012 with the stream of Non-Medical, I always love to take challenges before I have taken an entry in commerce stream but due to the boring CA things I was looking to learn more about Science and Technology and then I choose to go with Non-Medical, I got 70% in this course.",
+        "description": "I completed my Senior Secondary education in 2012 with a focus on Non-Medical subjects. Initially, I explored the commerce stream, but found it uninteresting, particularly the CA curriculum. Seeking more engaging challenges, I shifted my focus to Science and Technology, choosing the Non-Medical stream. I graduated with a 70%.",
         "points": ["Non-Medical", "Math", "Science", "Cricket player of school team"]
       },
       {
@@ -52,14 +52,36 @@
         "endDate": "2013-10-01T13:13:13.0Z",
         "state": "Punjab",
         "totalSems": 2,
-        "description": "I completed High school in 2010 with 70.21% in the subject. During school time I participated in different outdoor sports events.",
+        "description": "I completed high school in 2010, achieving a 70.21%. During my school years, I actively participated in various outdoor sports events.",
         "points": ["Math","Cricket player of school team"]
       }
     ],
     "experiences": [
       {
+        "title": "Senior Fullstack Developer",
+        "description": "Now I'm working as full time freelancer and provide professional services and support to biggest tech companies on contract basis. My recent work includes the companies <strong>Cisco, Lucid Motors, TCS, Events.com</strong>",
+        "company": "Professional Services",
+        "address": "Mohali, Punjab, India",
+        "startDate": "2021-06-01T13:13:13.0Z",
+        "endDate": "2024-06-01T13:13:13.0Z",
+        "projects": [
+  
+        ],
+        "roles": [
+  
+        ],
+        "technologies": [
+          "Angular",
+          "React",
+          "NodeJs",
+          "Docker",
+          "AWS",
+          "Git"
+        ]
+      },
+      {
         "title": "Technical Lead Manager",
-        "description": "My responsibility was to lead the team of technical developers and help them to solve the problems. I was communicating with clients, listening to their thoughts, and discussing all the project-related stuff. I gave weekly demos and discuss the next milestones with them to deliver the quality and on-time work is my goal.",
+        "description": "My responsibilities included leading a team of technical developers and assisting them in solving problems. I communicated with clients, listened to their feedback, and discussed all project-related matters. I provided weekly demos and discussed upcoming milestones to ensure the delivery of high-quality, on-time work. My goal was always to meet and exceed client expectations.",
         "company": "Illuminz",
         "address": "#F-213 Phase-8, Mohali, Punjab, India",
         "startDate": "2018-06-07T13:13:13.0Z",
@@ -71,12 +93,14 @@
   
         ],
         "technologies": [
-          
+          "Angular",
+          "NodeJs",
+          "PHP"
         ]
       },
       {
         "title": "Senior Software Engineer",
-        "description": "I worked there as a Senior software engineer where I had to work on different technologies and communicate with sales and team leads to give the right directions, timeline, and availabilities.",
+        "description": "I worked as a Senior Software Engineer, where I handled various technologies and collaborated with sales and team leads to provide accurate directions, timelines, and availability assessments.",
         "company": "Deftsoft",
         "address": "#E-286 Phase-8 A, Mohali, Punjab, India",
         "startDate": "2017-01-23T13:13:13.0Z",
@@ -93,8 +117,8 @@
         ]
       },
       {
-        "title": "Senior Web Developer",
-        "description": "I started my development journey from Webclouds as a trainee in PHP development, within 20days I covered the syllabus given to me and I was assigned to live projects, I made the first project in WordPress single-handled and completed that within 4 days.",
+        "title": "Senior Software Developer",
+        "description": "I began my development journey at Webclouds as a trainee in PHP development. Within 20 days, I completed the assigned syllabus and was entrusted with live projects. My first project, a WordPress site, was completed single-handedly in just four days.",
         "company": "Webclouds",
         "address": "SCO 34-C, Kharar, Mohali, Punjab, India",
         "startDate": "2013-01-23T13:13:13.0Z",
@@ -260,41 +284,41 @@
         "name": "Motoview",
         "link": "https://motoview.com",
         "image": "motoview.png",
-        "description": "A complete website with a listing of cars from different motor shows, the best automobile companies from around the world showcase their latest designs and concepts for cars of the future. We are fetching a list of different cars from the Iceberg API and then storing all of them inside Motoview database. We can compare the multiple cars side by side to see all the features available, also users can signup and like/unlike, comment on the different parts of the car.",
+        "description": "Motoview features a comprehensive listing of cars from various prestigious motor shows, where leading automobile companies worldwide present their latest designs and future concepts. We retrieve a diverse array of car listings from the Iceberg API and store them in our Motoview database. Users can conveniently compare multiple cars side by side, exploring all available features. Additionally, they can sign up, interact by liking or disliking, and comment on different aspects of the cars showcased.",
         "technologies": ["Angular", "Lumen", "Mysql"]
       },
       {
         "name": "Ethnico",
         "link": "https://ethnico.in",
         "image": "ethnico.png",
-        "description": "Ethnico presents itself as a holistic platform for both customized and readymade clothing. It connects artisans, boutiques, and clothing houses across Chennai, to people looking for bespoke stitching and customized tailoring experiences. Ethnico is a wholesome platform for both the end-users and the vendors. It gives users the feasibility to shop for readymade garments and bespoke stitching options, without having to step out of their homes.",
+        "description": "Ethnico is a holistic platform that offers both customized and ready-made clothing options. It connects artisans, boutiques, and clothing houses throughout Chennai with individuals seeking bespoke stitching and tailored experiences. Ethnico serves as a comprehensive platform for both end-users and vendors alike. It provides users with the convenience of shopping for readymade garments and bespoke stitching options from the comfort of their homes, eliminating the need to visit physical stores.",
         "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
       },
       {
         "name": "Lex Chatbot",
         "image": "lexbot.png",
-        "description": "The chatbot is made to take the feedback for the different Canadian surveys, based on user response it detects the sentiment of the line, if it's positive or negative response based on that it asks the next question to get the more details about their experience, it has progress bar until it reaches the certain number of words the questions continue asking for 5 times to the user. I made a unique Lambda/Python script to achieve this and prepare the sentence by using English grammar and syntax.",
+        "description": "The chatbot is designed to collect feedback for various Canadian surveys. It analyzes user responses to detect sentiment—whether positive or negative—and tailors subsequent questions accordingly to gather more details about their experience. The chatbot features a progress bar that continues asking questions up to five times or until a certain word count is reached. To achieve this, I developed a unique Lambda/Python script that structures sentences using proper English grammar and syntax.",
         "technologies": ["AWS Lambda", "Python", "DynamoDB"]
       },
       {
         "name": "Delivery Papa",
         "link": "http://dp.illuminz.com",
         "image": "delivery-papa.png",
-        "description": "It's a multi-vendor system to sell food online by different companies from their outlets, every individual has a separate database to sell/track their orders and then further it can be assigned to delivery partners through different delivery services with live tracking, it has table reserve/booking option and POS facility let users to directly purchase food from restaurant. It provides a loyalty program so based on user purchases the tier gets updated and based on that users will get exciting offers, discounts. Companies can promote their business by using the social and marketing campaigns.",
+        "description": "This is a multi-vendor system designed for online food sales by various companies operating from their respective outlets. Each vendor manages a separate database to track and fulfill orders. Orders can be assigned to delivery partners via multiple delivery services, offering live tracking capabilities. The system includes options for table reservations/booking and a point-of-sale (POS) facility, allowing users to purchase food directly from restaurants. It also features a loyalty program where users earn tier upgrades based on their purchases, unlocking exciting offers and discounts. Companies can promote their businesses through social and marketing campaigns integrated into the platform.",
         "technologies": ["Angular", "NodeJs", "React", "NextJS", "Mysql", "MongoDB"]
       },
       {
         "name": "Upped Events",
         "link": "http://uppedevents.com",
         "image": "upped.png",
-        "description": "It's full fledge event management system from selling tickets online to manage Event owners, Vendors, Staff, Customers. Users can see the currently running event in their area and book for their event by purchasing a ticket or slot. Event owners or companies can create an event and add their Vendors or source from Upped and then further staff will be assigned to vendors and they can have their staff as well, from ticket checking to items purchasing everything is managed in the system with a different kind of analytics to let the companies view full insight of their business.",
+        "description": "It's a comprehensive event management system that handles everything from online ticket sales to the management of event owners, vendors, staff, and customers. Users can easily discover and book tickets or slots for ongoing events in their area. Event organizers and companies can create events, enlist vendors either internally or through Upped, and assign staff to manage various aspects. The system efficiently manages operations such as ticket validation and merchandise purchases. Advanced analytics provide businesses with detailed insights into their operations, empowering them to make informed decisions.",
         "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
       },
       {
         "name": "Gigipo",
         "link": "https://dev.gigipo.com",
         "image": "gigipo.png",
-        "description": "It's online coaching website where Teachers can register and offer their different types of classes related to Art, Music and many other categories, users will see the list of all the classes and book for the slot or start an instant class with teacher by paying the amount, then it will create a new room for the user and teacher to join through video call which uses the techonology JITSI Meet (Open source video conferencing), and then teacher can share the notes and other information with the user. It has gift a class feature which helps users to purchase and pay for other users class.",
+        "description": "It's an online coaching platform where teachers can register and offer classes in various categories such as Art, Music, and more. Users can browse through the list of available classes, book slots, or start instant sessions with teachers by making payments. The platform utilizes JITSI Meet, an open-source video conferencing technology, to create dedicated rooms for seamless video calls between teachers and students. During sessions, teachers can share notes and other relevant information with their students. Additionally, the platform includes a <strong>Gift a Class</strong> feature, allowing users to purchase classes for others and manage payments seamlessly.",
         "technologies": ["React", "NodeJs", "Mysql", "MongoDB"]
       }
     ]
