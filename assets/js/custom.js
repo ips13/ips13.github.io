@@ -1,6 +1,8 @@
-; (function () {
+;(function () {
   'use strict';
-  var isMobile = {
+
+  // Mobile detection
+  const isMobile = {
     Android: function () {
       return navigator.userAgent.match(/Android/i);
     },
@@ -21,231 +23,218 @@
     }
   };
 
-  var fullHeight = function () {
+  // Set full height for elements
+  const fullHeight = function () {
     if (!isMobile.any()) {
-      $('.js-fullheight').css('height', $(window).height());
-      $(window).resize(function () {
-        $('.js-fullheight').css('height', $(window).height());
+      const elements = document.querySelectorAll('.js-fullheight');
+      const setHeight = () => {
+        elements.forEach(el => {
+          el.style.height = window.innerHeight + 'px';
+        });
+      };
+      setHeight();
+      window.addEventListener('resize', setHeight);
+    }
+  };
+
+  // Counter animation
+  const animateCounter = (element, start, end, duration) => {
+    const startTime = performance.now();
+    const step = (currentTime) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const value = Math.floor(progress * (end - start) + start);
+      element.textContent = value;
+      if (progress < 1) {
+        requestAnimationFrame(step);
+      }
+    };
+    requestAnimationFrame(step);
+  };
+
+  const counter = function () {
+    const counters = document.querySelectorAll('.js-counter');
+    counters.forEach(counter => {
+      const target = parseInt(counter.getAttribute('data-to')) || 0;
+      const speed = parseInt(counter.getAttribute('data-speed')) || 2000;
+      animateCounter(counter, 0, target, speed);
+    });
+  };
+
+  // Counter waypoint using Intersection Observer
+  const counterWayPoint = function () {
+    const counterSection = document.getElementById('ipsingh-counter');
+    if (counterSection) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+            setTimeout(counter, 400);
+            entry.target.classList.add('animated');
+          }
+        });
+      }, { threshold: 0.1 });
+      observer.observe(counterSection);
+    }
+  };
+
+  // Content animations using Intersection Observer
+  const contentWayPoint = function () {
+    const animateBoxes = document.querySelectorAll('.animate-box');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry, index) => {
+        if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
+          entry.target.classList.add('item-animate');
+          setTimeout(() => {
+            const effect = entry.target.getAttribute('data-animate-effect') || 'fadeInUp';
+            entry.target.classList.add(effect, 'animated');
+            entry.target.classList.remove('item-animate');
+          }, index * 200);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    animateBoxes.forEach(box => observer.observe(box));
+  };
+
+  // Burger menu toggle
+  const burgerMenu = function () {
+    const toggle = document.querySelector('.js-ipsingh-nav-toggle');
+    if (toggle) {
+      toggle.addEventListener('click', function (event) {
+        event.preventDefault();
+        const body = document.body;
+        if (body.classList.contains('offcanvas')) {
+          this.classList.remove('active');
+          body.classList.remove('offcanvas');
+        } else {
+          this.classList.add('active');
+          body.classList.add('offcanvas');
+        }
       });
     }
   };
 
-  var counter = function () {
-    $('.js-counter').countTo({
-      formatter: function (value, options) {
-        return value.toFixed(options.decimals);
-      },
+  // Click outside to close menu
+  const mobileMenuOutsideClick = function () {
+    document.addEventListener('click', function (e) {
+      const aside = document.getElementById('ipsingh-aside');
+      const toggle = document.querySelector('.js-ipsingh-nav-toggle');
+      const isClickInside = aside?.contains(e.target) || toggle?.contains(e.target);
+      
+      if (!isClickInside && document.body.classList.contains('offcanvas')) {
+        document.body.classList.remove('offcanvas');
+        toggle?.classList.remove('active');
+      }
+    });
+
+    window.addEventListener('scroll', function () {
+      if (document.body.classList.contains('offcanvas')) {
+        document.body.classList.remove('offcanvas');
+        document.querySelector('.js-ipsingh-nav-toggle')?.classList.remove('active');
+      }
     });
   };
 
-  var counterWayPoint = function () {
-    if ($('#ipsingh-counter').length > 0) {
-      $('#ipsingh-counter').waypoint(function (direction) {
-        if (direction === 'down' && !$(this.element).hasClass('animated')) {
-          setTimeout(counter, 400);
-          $(this.element).addClass('animated');
-        }
-      }, { offset: '90%' });
-    }
-  };
-
-  // Animations
-  var contentWayPoint = function () {
-    var i = 0;
-    $('.animate-box').waypoint(function (direction) {
-      if (direction === 'down' && !$(this.element).hasClass('animated')) {
-        i++;
-        $(this.element).addClass('item-animate');
-        setTimeout(function () {
-          $('body .animate-box.item-animate').each(function (k) {
-            var el = $(this);
-            setTimeout(function () {
-              var effect = el.data('animate-effect');
-              if (effect === 'fadeIn') {
-                el.addClass('fadeIn animated');
-              } else if (effect === 'fadeInLeft') {
-                el.addClass('fadeInLeft animated');
-              } else if (effect === 'fadeInRight') {
-                el.addClass('fadeInRight animated');
-              } else {
-                el.addClass('fadeInUp animated');
-              }
-              el.removeClass('item-animate');
-            }, k * 200, 'easeInOutExpo');
+  // Smooth scroll navigation
+  const clickMenu = function () {
+    const navLinks = document.querySelectorAll('#navbar a:not([class="external"])');
+    navLinks.forEach(link => {
+      link.addEventListener('click', function (event) {
+        const section = this.getAttribute('data-nav-section');
+        const navbar = document.getElementById('navbar');
+        const targetSection = document.querySelector(`[data-section="${section}"]`);
+        
+        if (targetSection) {
+          event.preventDefault();
+          const offsetTop = targetSection.offsetTop - 55;
+          window.scrollTo({
+            top: offsetTop,
+            behavior: 'smooth'
           });
-        }, 10);
-      }
-    }, { offset: '70%' });
-  };
-
-  var burgerMenu = function () {
-    $('.js-ipsingh-nav-toggle').on('click', function (event) {
-      event.preventDefault();
-      var $this = $(this);
-      if ($('body').hasClass('offcanvas')) {
-        $this.removeClass('active');
-        $('body').removeClass('offcanvas');
-      } else {
-        $this.addClass('active');
-        $('body').addClass('offcanvas');
-      }
-    });
-  };
-
-  // Click outside of offcanvass
-  var mobileMenuOutsideClick = function () {
-    $(document).click(function (e) {
-      var container = $("#ipsingh-aside, .js-ipsingh-nav-toggle");
-      if (!container.is(e.target) && container.has(e.target).length === 0) {
-        if ($('body').hasClass('offcanvas')) {
-          $('body').removeClass('offcanvas');
-          $('.js-ipsingh-nav-toggle').removeClass('active');
         }
-      }
-    });
-
-    $(window).scroll(function () {
-      if ($('body').hasClass('offcanvas')) {
-        $('body').removeClass('offcanvas');
-        $('.js-ipsingh-nav-toggle').removeClass('active');
-      }
-    });
-  };
-
-  var clickMenu = function () {
-    $('#navbar a:not([class="external"])').click(function (event) {
-      var section = $(this).data('nav-section'),
-        navbar = $('#navbar');
-      if ($('[data-section="' + section + '"]').length) {
-        $('html, body').animate({
-          scrollTop: $('[data-section="' + section + '"]').offset().top - 55
-        }, 500);
-      }
-      if (navbar.is(':visible')) {
-        navbar.removeClass('in');
-        navbar.attr('aria-expanded', 'false');
-        $('.js-ipsingh-nav-toggle').removeClass('active');
-      }
-
-      event.preventDefault();
-      return false;
-    });
-
-
-  };
-
-  // Reflect scrolling in navigation
-  var navActive = function (section) {
-    var $el = $('#navbar > ul');
-    $el.find('li').removeClass('active');
-    $el.each(function () {
-      $(this).find('a[data-nav-section="' + section + '"]').closest('li').addClass('active');
+        
+        if (navbar && navbar.classList.contains('in')) {
+          navbar.classList.remove('in');
+          navbar.setAttribute('aria-expanded', 'false');
+          document.querySelector('.js-ipsingh-nav-toggle')?.classList.remove('active');
+        }
+        
+        return false;
+      });
     });
   };
 
-  var navigationSection = function () {
-    var $section = $('section[data-section]');
-    $section.waypoint(function (direction) {
-      if (direction === 'down') {
-        navActive($(this.element).data('section'));
+  // Update active navigation item
+  const navActive = function (section) {
+    const navList = document.querySelector('#navbar > ul');
+    if (navList) {
+      navList.querySelectorAll('li').forEach(li => li.classList.remove('active'));
+      const activeLink = navList.querySelector(`a[data-nav-section="${section}"]`);
+      if (activeLink) {
+        activeLink.closest('li').classList.add('active');
       }
-    }, {
-      offset: '150px'
-    });
-
-    $section.waypoint(function (direction) {
-      if (direction === 'up') {
-        navActive($(this.element).data('section'));
-      }
-    }, {
-      offset: function () { return -$(this.element).height() + 155; }
-    });
-  };
-
-  var sliderMain = function () {
-    $('#ipsingh-home .flexslider').flexslider({
-      animation: "fade",
-      slideshowSpeed: 5000,
-      directionNav: true,
-      start: function () {
-        setTimeout(function () {
-          $('.slider-text').removeClass('animated fadeInUp');
-          $('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-        }, 500);
-      },
-      before: function () {
-        setTimeout(function () {
-          $('.slider-text').removeClass('animated fadeInUp');
-          $('.flex-active-slide').find('.slider-text').addClass('animated fadeInUp');
-        }, 500);
-      }
-    });
-  };
-
-  var stickyFunction = function () {
-
-    var h = $('.image-content').outerHeight();
-
-    if ($(window).width() <= 992) {
-      $("#sticky_item").trigger("sticky_kit:detach");
-    } else {
-      $('.sticky-parent').removeClass('stick-detach');
-      $("#sticky_item").trigger("sticky_kit:detach");
-      $("#sticky_item").trigger("sticky_kit:unstick");
     }
+  };
 
-    $(window).resize(function () {
-      var h = $('.image-content').outerHeight();
-      $('.sticky-parent').css('height', h);
+  // Navigation section highlighting on scroll
+  const navigationSection = function () {
+    const sections = document.querySelectorAll('section[data-section]');
+    
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const section = entry.target.getAttribute('data-section');
+          navActive(section);
+        }
+      });
+    }, { threshold: 0.3 });
 
-      if ($(window).width() <= 992) {
-        $("#sticky_item").trigger("sticky_kit:detach");
-      } else {
-        $('.sticky-parent').removeClass('stick-detach');
-        $("#sticky_item").trigger("sticky_kit:detach");
-        $("#sticky_item").trigger("sticky_kit:unstick");
+    sections.forEach(section => observer.observe(section));
+  };
 
-        // $("#sticky_item").stick_in_parent();
+  // Simple slider for home section (replaces flexslider)
+  const sliderMain = function () {
+    const slider = document.querySelector('#ipsingh-home .flexslider');
+    if (slider) {
+      // The slider only has one slide, so we just add the animation class
+      const sliderText = slider.querySelector('.slider-text');
+      if (sliderText) {
+        setTimeout(() => {
+          sliderText.classList.add('animated', 'fadeInUp');
+        }, 500);
       }
-    });
-
-    $('.sticky-parent').css('height', h);
-    // $("#sticky_item").stick_in_parent();
-
+    }
   };
 
-  var owlCrouselFeatureSlide = function () {
-    $('.owl-carousel').owlCarousel({
-      animateOut: 'fadeOut',
-      animateIn: 'fadeIn',
-      autoplay: true,
-      loop: true,
-      margin: 0,
-      nav: true,
-      dots: false,
-      autoHeight: true,
-      items: 1,
-      navText: [
-        "<i class='icon-arrow-left3 owl-direction'></i>",
-        "<i class='icon-arrow-right3 owl-direction'></i>"
-      ]
-    })
+  // Owl carousel replacement (check if used)
+  const owlCarouselFeatureSlide = function () {
+    const carousels = document.querySelectorAll('.owl-carousel');
+    // If there are no carousels, this function does nothing
+    // The carousel functionality can be added here if needed in the future
+    if (carousels.length > 0) {
+      console.log('Carousel elements found but not initialized (library removed)');
+    }
   };
 
-  // Document on load.
-  $(function () {
+  // Initialize all functions on DOM ready
+  const init = function () {
     fullHeight();
     counter();
     counterWayPoint();
     contentWayPoint();
     burgerMenu();
     clickMenu();
-    // navActive();
     navigationSection();
     mobileMenuOutsideClick();
     sliderMain();
-    stickyFunction();
-    owlCrouselFeatureSlide();
-  });
+    owlCarouselFeatureSlide();
+  };
 
-}());
+  // Run on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+
+})();

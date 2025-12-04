@@ -5,93 +5,66 @@
     "lastName": "Singh",
     "fullName": "Mr. Inderpal Singh",
     "role": "Full Stack Developer",
+    "totalExperience": 12,
     "profilePic": "/assets/images/profile.jpg",
-    "linkedin": "https://www.linkedin.com/in/ips17009",
+    "linkedin": "https://linkedin.com/in/ips13",
     "twitter": "",
     "facebook": "",
     "instagram": "",
-    "intro": "<strong>Hi I'm Inder Pal Singh</strong> from Punjab. I have 10 years of experience in development. I began my career with PHP development and have always been keen to learn different technologies. This curiosity led me to switch to frontend JavaScript frameworks. In 2016, I completed my first project with Node.js and subsequently started working with Angular and React.js. After years of experience and continuous learning, I am now proud to represent myself as a Full Stack Developer.",
-    "description": "Starting my career as a PHP developer, I worked with various technologies and frameworks, developing numerous plugins and themes in WordPress. In 2017, I transitioned to JavaScript frameworks, specifically Angular and React. Subsequently, I began working with both backend and frontend technologies. Today, I am a Full Stack Developer in website and app development, proficient in six programming languages, with more on the way.",
+    "intro": "<strong>Senior Full Stack Developer</strong> with 12+ years of experience designing and scaling high-performance web applications. Expert in JS, Angular, React, Node.js, Java and Python, with a proven track record of delivering mission-critical solutions for industry giants including events.com, Cisco, and Lucid Motors.",
+    "description": "Specialized in migrating large-scale datasets (2TB+), optimizing API architecture, and driving Agile adoption to increase team productivity by 30%.",
     "educations": [
       {
-        "title": "Bachelor Degree of Computre Science & Information Technology (BSC.IT)",
+        "title": "Bachelor of Science in IT (BSc IT)",
         "institute": "Kalinga University",
-        "startDate": "2014-06-01T13:13:13.0Z",
-        "endDate": "2016-06-01T13:13:13.0Z",
-        "state": "Chhattisgarh",
+        "startDate": "2014-01-01T00:00:00.0Z",
+        "endDate": "2016-01-01T00:00:00.0Z",
+        "state": "Raipur, India",
         "totalSems": 4,
-        "description": "After completing my diploma, I started my career in development. A few months later, I was admitted directly into the second year of a B.Sc. in Information Technology based on my diploma. I graduated with a 67.14% and gained substantial knowledge in the field of Information Technology.",
-        "points": ["Math", "Made project of shopping cart"]
+        "description": "Graduated with a focus on Information Technology.",
+        "points": []
       },
       {
         "title": "Diploma in Information Technology (DIT)",
-        "institute": "Kalinga University",
-        "startDate": "2012-10-01T13:13:13.0Z",
-        "endDate": "2013-10-01T13:13:13.0Z",
-        "state": "Punjab",
+        "institute": "Punjab Infotech",
+        "startDate": "2012-01-01T00:00:00.0Z",
+        "endDate": "2013-01-01T00:00:00.0Z",
+        "state": "Mohali, Punjab",
         "totalSems": 2,
-        "description": "After completing my senior secondary education, I pursued a degree in Information Technology to deepen my understanding of computers. I graduated with a 73.42% and gained a solid foundation in the field. I always aspired to be a software engineer but was unsure where to begin. This course provided the perfect starting point, offering industrial training and coaching in PHP and MySQL, which helped launch my career.",
-        "points": ["Industrial Training", "Communicating Skills", "PHP, Mysql training"]
-      },
-      {
-        "title": "Senior Secondary School",
-        "institute": "3b1 Govt. Modal Senior Secondary, Mohali",
-        "board": "PSEB",
-        "startDate": "2012-10-01T13:13:13.0Z",
-        "endDate": "2013-10-01T13:13:13.0Z",
-        "state": "Punjab",
-        "totalSems": 2,
-        "description": "I completed my Senior Secondary education in 2012 with a focus on Non-Medical subjects. Initially, I explored the commerce stream, but found it uninteresting, particularly the CA curriculum. Seeking more engaging challenges, I shifted my focus to Science and Technology, choosing the Non-Medical stream. I graduated with a 70%.",
-        "points": ["Non-Medical", "Math", "Science", "Cricket player of school team"]
-      },
-      {
-        "title": "High School",
-        "institute": "JVS (Sectore-71 Mohali)",
-        "board": "PSEB",
-        "startDate": "2012-10-01T13:13:13.0Z",
-        "endDate": "2013-10-01T13:13:13.0Z",
-        "state": "Punjab",
-        "totalSems": 2,
-        "description": "I completed high school in 2010, achieving a 70.21%. During my school years, I actively participated in various outdoor sports events.",
-        "points": ["Math","Cricket player of school team"]
+        "description": "Gained a solid foundation in the field of Information Technology.",
+        "points": []
       }
     ],
     "experiences": [
       {
-        "title": "Senior Fullstack Developer",
-        "description": "Now I'm working as full time freelancer and provide professional services and support to biggest tech companies on contract basis. My recent work includes the companies Cisco, Lucid Motors, TCS, Upped Events",
+        "title": "Senior Full Stack Developer (Contract)",
+        "description": "Clients: events.com, Cisco, Lucid Motors, Upped Events. Architected a comprehensive event management software solution facilitating ticket sales, staff management, and operations. Spearheaded the development of the award-winning “Master Boot Record (MBR)” application for Cisco. Engineered a multi-country Point of Sale (POS) system using Ionic, Node.js, and React for Lucid Motors. Managed the seamless migration of Canada’s largest survey platform (2 TB of data) from SQL to a modernized, indexed MySQL database on AWS. Developed a car listing platform using Angular and Laravel (Motoview).",
         "company": "Professional Services",
-        "address": "Mohali, Punjab, India",
-        "startDate": "2021-06-01T13:13:13.0Z",
-        "endDate": "2024-06-01T13:13:13.0Z",
-        "projects": [
-  
-        ],
-        "roles": [
-  
-        ],
+        "address": "Remote / Mohali, India",
+        "startDate": "2021-06-01T00:00:00.0Z",
+        "endDate": "Present",
+        "projects": [],
+        "roles": [],
         "technologies": [
           "Angular",
           "React",
           "NodeJs",
           "Docker",
           "AWS",
-          "Git"
+          "Git",
+          "Ionic",
+          "Laravel"
         ]
       },
       {
-        "title": "Technical Lead Manager",
-        "description": "My responsibilities included leading a team of technical developers and assisting them in solving problems. I communicated with clients, listened to their feedback, and discussed all project-related matters. I provided weekly demos and discussed upcoming milestones to ensure the delivery of high-quality, on-time work. My goal was always to meet and exceed client expectations.",
+        "title": "Technical Lead",
+        "description": "Led a team of technical developers in building scalable applications, conducting weekly code reviews, and ensuring timely delivery of milestones. Championed the adoption of Agile methodologies, resulting in a 30% increase in team productivity within six months. Served as the primary technical point of contact for clients, translating feedback into actionable development tasks.",
         "company": "Illuminz",
-        "address": "#F-213 Phase-8, Mohali, Punjab, India",
-        "startDate": "2018-06-07T13:13:13.0Z",
-        "endDate": "2021-05-31T13:13:13.0Z",
-        "projects": [
-  
-        ],
-        "roles": [
-  
-        ],
+        "address": "Mohali, Punjab",
+        "startDate": "2018-06-01T00:00:00.0Z",
+        "endDate": "2021-05-01T00:00:00.0Z",
+        "projects": [],
+        "roles": [],
         "technologies": [
           "Angular",
           "NodeJs",
@@ -99,46 +72,19 @@
         ]
       },
       {
-        "title": "Senior Software Engineer",
-        "description": "I worked as a Senior Software Engineer, where I handled various technologies and collaborated with sales and team leads to provide accurate directions, timelines, and availability assessments.",
-        "company": "Deftsoft",
-        "address": "#E-286 Phase-8 A, Mohali, Punjab, India",
-        "startDate": "2017-01-23T13:13:13.0Z",
-        "endDate": "2018-05-19T13:13:13.0Z",
-        "projects": [
-  
-        ],
-        "roles": [
-  
-        ],
-        "technologies": [
-          "PHP",
-          "JS"
-        ]
-      },
-      {
         "title": "Senior Software Developer",
-        "description": "I began my development journey at Webclouds as a trainee in PHP development. Within 20 days, I completed the assigned syllabus and was entrusted with live projects. My first project, a WordPress site, was completed single-handedly in just four days.",
+        "description": "Collaborated with sales and leadership to define project direction and timelines for a diverse portfolio of medium-to-large scale applications, ensuring technical feasibility. Successfully built and maintained diverse customer-facing applications across multiple programming languages. Managed User Acceptance Testing (UAT) and implementation phases to ensure zero-defect delivery.",
         "company": "Webclouds",
-        "address": "SCO 34-C, Kharar, Mohali, Punjab, India",
-        "startDate": "2013-01-23T13:13:13.0Z",
-        "endDate": "2016-10-03T13:13:13.0Z",
-        "projects": [
-  
-        ],
-        "roles": [
-  
-        ],
+        "address": "Mohali, Punjab",
+        "startDate": "2013-10-01T00:00:00.0Z",
+        "endDate": "2018-05-01T00:00:00.0Z",
+        "projects": [],
+        "roles": [],
         "technologies": [
           "PHP",
           "JS",
           "Wordpress",
-          "Magento",
-          "Drupal",
-          "Joomla",
-          "Ontraport",
-          "Volusion",
-          "ClickBank"
+          "Magento"
         ]
       }
     ],
@@ -159,7 +105,7 @@
         "slug": "react"
       },
       {
-        "name": "PHP",
+        "name": "PHP (Laravel)",
         "percent": 100,
         "slug": "php"
       },
@@ -167,6 +113,11 @@
         "name": "Python",
         "percent": 90,
         "slug": "python"
+      },
+      {
+        "name": "Java",
+        "percent": 80,
+        "slug": "java"
       },
       {
         "name": "Ionic",
@@ -179,54 +130,44 @@
         "slug": "reactnative"
       },
       {
-        "name": "PhoneGap",
-        "percent": 70,
-        "slug": "phonegap"
-      },
-      {
-        "name": "SQL (MySql, MsSql, MariaDB)",
+        "name": "SQL (MySql, PostgreSQL)",
         "percent": 100,
         "slug": "mysql"
       },
       {
-        "name": "NoSQL (MongoDB, Dynamodb)",
+        "name": "NoSQL (MongoDB)",
         "percent": 100,
         "slug": "nosql"
       },
       {
-        "name": "HTML",
+        "name": "HTML5",
         "percent": 100,
         "slug": "html"
       },
       {
-        "name": "CSS",
+        "name": "CSS3",
         "percent": 100,
         "slug": "css"
       },
       {
-        "name": "AWS (IAAS, PAAS, SAAS, RDS)",
+        "name": "AWS",
         "percent": 95,
         "slug": "aws"
       },
       {
-        "name": "Google Cloud (Instances)",
-        "percent": 80,
-        "slug": "gcloud"
-      },
-      {
-        "name": "Cpanels (SSH, Files)",
-        "percent": 100,
-        "slug": "cpanel"
-      },
-      {
         "name": "Docker",
-        "percent": 70,
+        "percent": 80,
         "slug": "docker"
       },
       {
-        "name": "Kubernetes",
-        "percent": 60,
-        "slug": "kubernetes"
+        "name": "Jenkins / CI/CD",
+        "percent": 70,
+        "slug": "jenkins"
+      },
+      {
+        "name": "Microservices",
+        "percent": 80,
+        "slug": "microservices"
       },
       {
         "name": "Wordpress",
@@ -234,49 +175,24 @@
         "slug": "wordpress"
       },
       {
-        "name": "Laravel",
-        "percent": 95,
-        "slug": "laravel"
-      },
-      {
-        "name": "Magento (v1 & v2)",
-        "percent": 90,
-        "slug": "magento"
-      },
-      {
-        "name": "Bigcommerce",
-        "percent": 90,
-        "slug": "bigcommerce"
-      },
-      {
-        "name": "Codeigniter",
-        "percent": 80,
-        "slug": "codeigniter"
-      },
-      {
-        "name": "CakePHP",
-        "percent": 80,
-        "slug": "cakephp"
-      },
-      {
         "name": "Shopify",
         "percent": 80,
         "slug": "shopify"
       },
       {
-        "name": "Drupal",
-        "percent": 70,
-        "slug": "drupal"
+        "name": "Laravel",
+        "percent": 100,
+        "slug": "laravel"
       },
       {
-        "name": "Opencart",
-        "percent": 70,
-        "slug": "opencart"
+        "name": "Magento",
+        "percent": 90,
+        "slug": "magento"
       },
       {
-        "name": "Nationbuilder",
-        "percent": 60,
-        "slug": "nationbuilder"
+        "name": "CakePHP",
+        "percent": 85,
+        "slug": "cakephp"
       }
     ],
     "projects": [
