@@ -3,7 +3,11 @@
   "data": {
     "name": "Inder",
     "lastName": "Singh",
+    "phone": "8591773009",
+    "phoneCode": "+91",
+    "email": "ips13009@gmail.com",
     "fullName": "Mr. Inderpal Singh",
+    "address": "Mohali, Punjab",
     "role": "Full Stack Developer",
     "totalExperience": 12,
     "profilePic": "/assets/images/profile.jpg",
@@ -21,7 +25,7 @@
         "endDate": "2016-01-01T00:00:00.0Z",
         "state": "Raipur, India",
         "totalSems": 4,
-        "description": "Graduated with a focus on Information Technology.",
+        "description": "specializing in Information Technology, focusing on software engineering principles, database management, and network security.",
         "points": []
       },
       {
@@ -31,14 +35,14 @@
         "endDate": "2013-01-01T00:00:00.0Z",
         "state": "Mohali, Punjab",
         "totalSems": 2,
-        "description": "Gained a solid foundation in the field of Information Technology.",
+        "description": "Established a strong technical foundation in computer science fundamentals and application development.",
         "points": []
       }
     ],
     "experiences": [
       {
         "title": "Senior Full Stack Developer (Contract)",
-        "description": "Clients: events.com, Cisco, Lucid Motors, Upped Events. Architected a comprehensive event management software solution facilitating ticket sales, staff management, and operations. Spearheaded the development of the award-winning “Master Boot Record (MBR)” application for Cisco. Engineered a multi-country Point of Sale (POS) system using Ionic, Node.js, and React for Lucid Motors. Managed the seamless migration of Canada’s largest survey platform (2 TB of data) from SQL to a modernized, indexed MySQL database on AWS. Developed a car listing platform using Angular and Laravel (Motoview).",
+        "description": "Engagement with key clients: events.com, Cisco, Lucid Motors, Upped Events. \n• Architected a comprehensive event management ecosystem managing end-to-end ticket sales, staff coordination, and operational logistics. \n• Spearheaded the development of Cisco's award-winning \"Master Boot Record (MBR)\" application. \n• Engineered a global, multi-country Point of Sale (POS) system for Lucid Motors utilizing Ionic, Node.js, and React. \n• Led the zero-downtime migration of Canada's largest survey platform, transferring 2 TB of data from legacy SQL to a high-performance, indexed MySQL architecture on AWS. \n• Developed 'Motoview', a feature-rich car listing platform using Angular and Laravel.",
         "company": "Professional Services",
         "address": "Remote / Mohali, India",
         "startDate": "2021-06-01T00:00:00.0Z",
@@ -58,7 +62,7 @@
       },
       {
         "title": "Technical Lead",
-        "description": "Led a team of technical developers in building scalable applications, conducting weekly code reviews, and ensuring timely delivery of milestones. Championed the adoption of Agile methodologies, resulting in a 30% increase in team productivity within six months. Served as the primary technical point of contact for clients, translating feedback into actionable development tasks.",
+        "description": "Directed a team of developers in building scalable enterprise applications, instituting rigorous code review processes, and ensuring on-time delivery of critical milestones. \n• Championed Agile adoption, resulting in a measurable 30% increase in team productivity within six months. \n• Served as the primary technical liaison for clients, effectively translating complex business requirements into actionable technical specifications.",
         "company": "Illuminz",
         "address": "Mohali, Punjab",
         "startDate": "2018-06-01T00:00:00.0Z",
@@ -73,7 +77,7 @@
       },
       {
         "title": "Senior Software Developer",
-        "description": "Collaborated with sales and leadership to define project direction and timelines for a diverse portfolio of medium-to-large scale applications, ensuring technical feasibility. Successfully built and maintained diverse customer-facing applications across multiple programming languages. Managed User Acceptance Testing (UAT) and implementation phases to ensure zero-defect delivery.",
+        "description": "Collaborated closely with sales and executive leadership to define technical strategy and roadmaps for a diverse portfolio of applications. \n• Successfully delivered and maintained multiple customer-facing applications, ensuring high availability and performance. \n• Managed end-to-end User Acceptance Testing (UAT) and deployment pipelines to guarantee defect-free releases.",
         "company": "Webclouds",
         "address": "Mohali, Punjab",
         "startDate": "2013-10-01T00:00:00.0Z",
@@ -200,42 +204,80 @@
         "name": "Motoview",
         "link": "https://motoview.com",
         "image": "motoview.png",
-        "description": "Motoview features a comprehensive listing of cars from various prestigious motor shows, where leading automobile companies worldwide present their latest designs and future concepts. We retrieve a diverse array of car listings from the Iceberg API and store them in our Motoview database. Users can conveniently compare multiple cars side by side, exploring all available features. Additionally, they can sign up, interact by liking or disliking, and comment on different aspects of the cars showcased.",
+        "description": "Motoview is a premier digital showroom aggregation platform. We integrate with the Iceberg API to curate a diverse collection of vehicles from prestigious international motor shows. The platform empowers users with advanced comparison tools, social interaction features (likes/dislikes), and a robust commenting system, creating an engaging community for automotive enthusiasts.",
         "technologies": ["Angular", "Lumen", "Mysql"]
       },
       {
         "name": "Ethnico",
         "link": "https://ethnico.in",
         "image": "ethnico.png",
-        "description": "Ethnico is a holistic platform that offers both customized and ready-made clothing options. It connects artisans, boutiques, and clothing houses throughout Chennai with individuals seeking bespoke stitching and tailored experiences. Ethnico serves as a comprehensive platform for both end-users and vendors alike. It provides users with the convenience of shopping for readymade garments and bespoke stitching options from the comfort of their homes, eliminating the need to visit physical stores.",
+        "description": "Ethnico is a pioneering marketplace bridging the gap between traditional artisans and modern consumers. The platform unifies boutiques, clothing houses, and skilled artisans across Chennai, offering a seamless digital storefront for bespoke tailoring and readymade ethnic wear. It revolutionizes the local textile industry by bringing the complete boutique experience to the user's doorstep.",
         "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
       },
       {
         "name": "Lex Chatbot",
         "image": "lexbot.png",
-        "description": "The chatbot is designed to collect feedback for various Canadian surveys. It analyzes user responses to detect sentiment—whether positive or negative—and tailors subsequent questions accordingly to gather more details about their experience. The chatbot features a progress bar that continues asking questions up to five times or until a certain word count is reached. To achieve this, I developed a unique Lambda/Python script that structures sentences using proper English grammar and syntax.",
+        "description": "An intelligent sentiment-analysis chatbot engineered for large-scale Canadian survey data. Leveraging AWS Lambda and Python, the bot dynamically adapts its questioning path based on real-time sentiment analysis of user responses. It features a sophisticated natural language processing script to ensure grammatical accuracy and syntax structure, enhancing user engagement and data quality.",
         "technologies": ["AWS Lambda", "Python", "DynamoDB"]
       },
       {
         "name": "Delivery Papa",
         "link": "http://dp.illuminz.com",
         "image": "delivery-papa.png",
-        "description": "This is a multi-vendor system designed for online food sales by various companies operating from their respective outlets. Each vendor manages a separate database to track and fulfill orders. Orders can be assigned to delivery partners via multiple delivery services, offering live tracking capabilities. The system includes options for table reservations/booking and a point-of-sale (POS) facility, allowing users to purchase food directly from restaurants. It also features a loyalty program where users earn tier upgrades based on their purchases, unlocking exciting offers and discounts. Companies can promote their businesses through social and marketing campaigns integrated into the platform.",
+        "description": "A scalable multi-vendor food delivery and management ecosystem. The platform supports complex operations including individual vendor database management, multi-provider delivery dispatching with real-time tracking, table reservations, and POS integration. It features a gamified loyalty application that rewards user engagement with tier-based benefits, alongside a comprehensive marketing suite for vendor promotions.",
         "technologies": ["Angular", "NodeJs", "React", "NextJS", "Mysql", "MongoDB"]
       },
       {
         "name": "Upped Events",
         "link": "http://uppedevents.com",
         "image": "upped.png",
-        "description": "It's a comprehensive event management system that handles everything from online ticket sales to the management of event owners, vendors, staff, and customers. Users can easily discover and book tickets or slots for ongoing events in their area. Event organizers and companies can create events, enlist vendors either internally or through Upped, and assign staff to manage various aspects. The system efficiently manages operations such as ticket validation and merchandise purchases. Advanced analytics provide businesses with detailed insights into their operations, empowering them to make informed decisions.",
+        "description": "An enterprise-grade event management platform orchestrating the entire event lifecycle. From ticketing and vendor onboarding to staff allocation and real-time operations, Upped provides a unified command center for organizers. Key features include secure ticket validation, merchandise management, and advanced analytics dashboards that provide actionable insights for data-driven decision-making.",
         "technologies": ["Angular", "NodeJs", "Mysql", "MongoDB"]
       },
       {
         "name": "Gigipo",
         "link": "https://dev.gigipo.com",
         "image": "gigipo.png",
-        "description": "It's an online coaching platform where teachers can register and offer classes in various categories such as Art, Music, and more. Users can browse through the list of available classes, book slots, or start instant sessions with teachers by making payments. The platform utilizes JITSI Meet, an open-source video conferencing technology, to create dedicated rooms for seamless video calls between teachers and students. During sessions, teachers can share notes and other relevant information with their students. Additionally, the platform includes a <strong>Gift a Class</strong> feature, allowing users to purchase classes for others and manage payments seamlessly.",
+        "description": "An interactive ed-tech platform connecting expert mentors with students across disciplines like Arts and Music. The system integrates JITSI Meet for high-quality, secure video conferencing, enabling seamless virtual classrooms. Features include instant session booking, resource sharing, and a 'Gift a Class' functionality, streamlining the learning experience for a global audience.",
         "technologies": ["React", "NodeJs", "Mysql", "MongoDB"]
+      }
+    ],
+    "services": [
+      {
+        "title": "Innovative Solutions",
+        "description": "Transforming abstract concepts into tangible, high-impact digital realities through creative problem-solving and technical innovation.",
+        "icon": "icon-bulb",
+        "colorClass": "color-1"
+      },
+      {
+        "title": "Software Development",
+        "description": "Architecting robust, scalable, and efficient codebases that solve complex user problems and streamline business operations.",
+        "icon": "icon-data",
+        "colorClass": "color-2"
+      },
+      {
+        "title": "Technical Mentorship",
+        "description": "Passionate about fostering talent, I dedicate time to mentoring fellow developers, conducting code reviews, and elevating team capabilities.",
+        "icon": "icon-phone3",
+        "colorClass": "color-3"
+      },
+      {
+        "title": "Angular Expertise",
+        "description": "Deep expertise since 2017, delivering enterprise-grade applications and contributing to the open-source community via NPM packages.",
+        "icon": "icon-angular",
+        "colorClass": "color-4"
+      },
+      {
+        "title": "Node.js Architecture",
+        "description": "Building high-performance backend systems since 2017, with extensive experience in Express.js and Hapi.js for scalable microservices.",
+        "icon": "icon-nodejs",
+        "colorClass": "color-5"
+      },
+      {
+        "title": "React Ecosystem",
+        "description": "Developing dynamic, responsive, and user-centric frontend interfaces since 2018, specializing in modern React patterns and performance.",
+        "icon": "icon-react",
+        "colorClass": "color-6"
       }
     ]
   }
